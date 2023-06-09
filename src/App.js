@@ -14,8 +14,6 @@ function App() {
   let [data, setData] = useState([]);
   let searchInput = useRef("");
 
-  /*useEffect(() => {}, [search]); */
-
   const handleSearch = (e, search) => {
     e.preventDefault();
     const fetchData = async () => {
